@@ -1,0 +1,21 @@
+Scope of Work: Web App
+	Target: testasp.vulnweb.com
+
+Objective : Find vulnerabilities in the website "testasp.vulnweb.com"
+
+Summary of Findings:
+	1) 4 High risk vulnerabilities
+	2) 3 Medium risk vulnerabilities
+	3) 7 low risk vulnerabilities
+	4) 3 Informational Vulnerabilities
+
+Vulnerabilities:
+	1) Cross Site Scripting
+	2) SQL Injection
+	3) External Redirect
+	4) Path Traversal
+
+Steps:
+	1)Scan the website for vulnerabilities with the tools like Nessus,Netsparker(Invicti),ZAP
+	2)From scanning we can see the Vulnerabilities like XSS,SQL Injection
+	3)We can perform XSS and SQL Injections by ourselves to find out what exactly is the sql code vulnerability
